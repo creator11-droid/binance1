@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query";
 
 const BinanceApiHeaders = {
   "X-RapidAPI-Key": process.env.REACT_APP_KEYS,
-  "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
+  "X-RapidAPI-Host": "binance43.p.rapidapi.com",
 };
 const baseUrl = "https://binance43.p.rapidapi.com";
 const createRequest = (url) => ({ url, headers: BinanceApiHeaders });
